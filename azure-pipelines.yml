@@ -7,7 +7,7 @@ trigger:
 - master
 
 variables:
-  databricks.host: https://westeurope.azuredatabricks.net
+  databricks.host: https://adb-504648775339869.9.azuredatabricks.net
   databricks.notebook.path: /Shared/MLFlow
   databricks.cluster.name: ML
   databricks.cluster.id: 
