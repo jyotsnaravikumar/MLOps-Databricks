@@ -88,6 +88,7 @@ with mlflow.start_run():
 
   (rmse, mae, r2) = eval_metrics(test_y, predicted_qualities)
 
+  print("Local dev branch test")
   print("Elasticnet model (alpha=%f, l1_ratio=%f):" % (alpha, l1_ratio))
   print("  RMSE: %s" % rmse)
   print("  MAE: %s" % mae)
